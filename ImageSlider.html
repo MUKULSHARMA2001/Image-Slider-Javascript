@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Practice Image Slider Task Of JAVASCRIPT</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="CSS/ImageSlider.css">
+</head>
+<body>
+  <!-- all images here -->
+<div class="slideshow-container">
+<div class="mySlides fade">
+  <img src="Images/img1.jpg"> 
+</div>
+
+<div class="mySlides">
+  <img src="Images/img2.jpg">
+</div>
+
+<div class="mySlides">
+  <img src="Images/img3.jpg">
+</div>
+
+<div class="mySlides">
+  <img src="Images/img4.jpg">
+</div>
+
+<div class="mySlides">
+  <img src="Images/img5.jpg">
+</div>
+
+<div class="mySlides">
+  <img src="Images/img6.jpg">
+</div>
+
+<div class="mySlides">
+  <img src="Images/img7.jpg">
+</div>
+<!-- previous and next buttons -->
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+<!-- all lower images -->
+<div class="center">
+  <img class="lowerimg" onclick="slideLower(1)" src="Images/img1.jpg"></img> 
+  <img class="lowerimg" onclick="slideLower(2)" src="Images/img2.jpg"></img> 
+  <img class="lowerimg" onclick="slideLower(3)" src="Images/img3.jpg"></img> 
+  <img class="lowerimg" onclick="slideLower(4)" src="Images/img4.jpg"></img> 
+  <img class="lowerimg" onclick="slideLower(5)" src="Images/img5.jpg"></img> 
+  <img class="lowerimg" onclick="slideLower(6)" src="Images/img6.jpg"></img> 
+  <img class="lowerimg" onclick="slideLower(7)" src="Images/img7.jpg"></img>
+</div>
+
+</body>
+<script src="js/ImageSlider.js"></script>
+<script src="js/jquery-3.6.0.min.js"></script>
+</html> 
